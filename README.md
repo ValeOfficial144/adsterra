@@ -4,8 +4,8 @@ make more money with adsterra from your unblocked games site!
 # what does this do?
 this script is built to help you make some more cash from your (unblocked games) website! it's very lightweight and easily configurable.
 
-# how does this work?
-it's actually quite simple! if you register banners, social bars, or other generic ad types with adsterra, they only pay you for the URLs you put in the dashboard. this script fixes that! by making a smartlink function like a popunder, you can make money from domains that haven't been added to adsterra, like BYOD and CDN/s3 links.
+# will it work?
+not 100% of the time. i'm just sharing the method that helped me make more money from ads on my website, so this might not work the same way for you. just try it, and if you like it, star the repo!
 
 # how do i set this up?
 1. grab `ads.js` from this repo
