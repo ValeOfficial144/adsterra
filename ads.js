@@ -1,8 +1,8 @@
 (() => {
-    const ADS_KEY = "ads:enableAds"; // completely optional if you want to let your users toggle ads!
-    const LAST_OPEN_KEY = "ads:lastAdOpenAt"; // makes sure your cooldown persists against reloads
-    const COOLDOWN_MS = 2 * 60 * 1000; // replace the first digit (ex. 2) with the amount of minutes between ads
-    const SMARTLINK = "smartlink_url_here"; // register a smartlink in your adsterra dashboard, then paste the link here
+    const ADS_KEY = "ads:enableAds"; 
+    const LAST_OPEN_KEY = "ads:lastAdOpenAt";
+    const COOLDOWN_MS = 6 * 60 * 1000; 
+    const SMARTLINK = "smartlink_url_here"; 
 
     const enabled = (localStorage.getItem(ADS_KEY) || "yes") === "yes";
     document.addEventListener("click", () => {
